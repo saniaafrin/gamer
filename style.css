@@ -45,6 +45,15 @@
 }
 
 
+.online-games{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+
 @media screen and (max-width :576px) {
     .nav-bar, .nav-link , .nav-link-first{
         display: flex;
