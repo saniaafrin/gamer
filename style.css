@@ -1,0 +1,20 @@
+.logo{
+    display: flex;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link-first{
+    padding: 10px;
+    display: flex;
+}
