@@ -53,6 +53,17 @@
     margin-top: 20px;
 }
 
+.play-sec{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.play-sec-heading{
+    margin-top: 100px;
+}
+
 
 @media screen and (max-width :576px) {
     .nav-bar, .nav-link , .nav-link-first{
