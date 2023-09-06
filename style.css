@@ -185,4 +185,15 @@
         gap: 10px;
 
      }
+     .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+     }
+     .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px;
+        gap: 30px;
+     }
 }
