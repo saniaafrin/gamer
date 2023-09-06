@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .logo{
     display: flex;
 }
@@ -110,6 +113,7 @@
 
 .footer{
     background-color: rgb(17, 24, 55);
+    padding: 20px;
 }
 
 .footer-logo{
@@ -118,10 +122,34 @@
     align-items: center;
 }
 
-.footer-link{
+.footer-list{
     display: flex;
     justify-content: center;
     color: white;
+    padding: 20px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 20px;
+}
+
+.footer-link{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: xx-small;
+    padding: 20px;
+}
+
+.footer-last{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
 }
  
 
