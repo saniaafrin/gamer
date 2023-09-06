@@ -56,6 +56,8 @@
 .play-sec{
     margin-left: 60px;
     margin-right: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -64,6 +66,48 @@
     margin-top: 100px;
 }
 
+.features{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features-first-row{
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.features-second-row{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+.feat-1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.feat-1 img{
+    height:40px;
+}
+
+.feat-1 p{
+    padding-left: 10px;
+}
+
+.feat-1:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+    padding: 10px;
+}
+ 
 
 @media screen and (max-width :576px) {
     .nav-bar, .nav-link , .nav-link-first{
@@ -83,6 +127,18 @@
      .online-games{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        align-items: center;
+        
+     }
+
+     .play-sec{
+        display: flex;
+        flex-direction: column-reverse;
+
+     }
+     .features-first-row, .features-second-row{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+
      }
 }
