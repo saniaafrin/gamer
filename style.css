@@ -107,6 +107,22 @@
     color: #FF42A5;
     padding: 10px;
 }
+
+.footer{
+    background-color: rgb(17, 24, 55);
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
  
 
 @media screen and (max-width :576px) {
